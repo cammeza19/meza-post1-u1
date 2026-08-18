@@ -1,9 +1,9 @@
 # Análisis de Patrones GoF en Spring Framework
 
-**Nombre:** Maria Camila Meza Palacio
-**Código:** 02240131006
-**Curso:** Patrones de Diseño de Software
-**Unidad:** 1
+**Nombre:** Maria Camila Meza Palacio <br>
+**Código:** 02240131006<br>
+**Curso:** Patrones de Diseño de Software<br>
+**Unidad:** 1<br>
 **Fecha:** 17 de agosto de 2026
 
 ---
