@@ -9,7 +9,7 @@ Post-contenido — Refactorización SOLID y análisis de patrones GoF en Spring
 Repositorio del post-contenido de la Unidad 1 de Patrones de Diseño de Software — Sexto Semestre. Contiene dos partes: refactorización SOLID de un God Object (`parte-1-refactorizacion-solid/`) y análisis de patrones GoF en Spring Framework (`parte-2-analisis-gof-spring/`).
 
 ## Parte 1 — Refactorización SOLID
-Proyecto Maven que refactoriza `OrderProcessor` aplicando SRP, OCP y DIP. Ver `parte-1-refactorizacion-solid/`.
+Proyecto Maven que refactoriza `OrderProcessor` aplicando SRP, OCP y DIP. Ver [`parte-1-refactorizacion-solid/`](./parte-1-refactorizacion-solid/).
 
 ### Análisis de Violaciones SOLID — Parte 1
 | Principio | Método/Sección afectada | Descripción de la violación |
@@ -25,7 +25,7 @@ Proyecto Maven que refactoriza `OrderProcessor` aplicando SRP, OCP y DIP. Ver `p
 | 2 | **Facade** | Estructural | `org.springframework.jdbc.core.JdbcTemplate` |
 | 3 | **Observer** | Comportamiento | `org.springframework.context.event.SimpleApplicationEventMulticaster` |
 
-Ver `parte-2-analisis-gof-spring/documento-analisis.md`.
+Ver [`parte-2-analisis-gof-spring/documento-analisis.md`](./parte-2-analisis-gof-spring/documento-analisis.md).
 
 ## Herramientas utilizadas
 - Java 17, Apache Maven, VS Code, Git, GitHub
