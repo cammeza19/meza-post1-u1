@@ -1,3 +1,8 @@
+# meza-post1-u1
+
+Post-contenido — Refactorización SOLID y análisis de patrones GoF en Spring
+
+
 # Post-contenido — Unidad 1: Fundamentos de Patrones de Diseño y Buenas Prácticas
 
 ## Descripción
@@ -11,8 +16,6 @@ Proyecto Maven que refactoriza `OrderProcessor` aplicando SRP, OCP y DIP. Ver `p
 |-----------|-------------------------|-----------------------------|
 | **SRP** (Single Responsibility Principle) | `calculateTotal`, `applyDiscount`, `saveOrder`, `sendEmail`, `printReport` | La clase `OrderProcessor` asume múltiples responsabilidades no cohesivas: cálculo de impuestos, lógica de descuentos, persistencia en base de datos, envío de notificaciones y generación de reportes en consola. |
 | **OCP** (Open/Closed Principle) | `applyDiscount` | El método utiliza condicionales (`if/else`) sobre el tipo de cliente (`VIP`, `REGULAR`). Para agregar un nuevo tipo de descuento o regla comercial, es obligatorio modificar la clase directamente en lugar de extender su comportamiento. |
-| **LSP** (Liskov Substitution Principle) | Lógica general de la clase `OrderProcessor` | Al ser una clase concreta acoplada que maneja directamente tipos específicos de clientes mediante condicionales duros, no existe un contrato ni jerarquía de subtipos que garantice el reemplazo seguro de comportamientos sin alterar la ejecución esperada. |
-| **ISP** (Interface Segregation Principle) | Interfaz implícita de `OrderProcessor` | La clase expone un conjunto masivo y variado de métodos públicos (`calculateTotal`, `saveOrder`, `sendEmail`, `printReport`), obligando a cualquier cliente que interactúe con ella a depender de métodos que probablemente no necesita ni utiliza. |
 | **DIP** (Dependency Inversion Principle) | Toda la clase `OrderProcessor` | La clase depende directamente de implementaciones concretas e internas para la persistencia y la notificación en lugar de depender de abstracciones o interfaces inyectadas desde el exterior. |
 
 ## Parte 2 — Análisis de Patrones GoF en Spring
