@@ -6,7 +6,7 @@ Post-contenido — Refactorización SOLID y análisis de patrones GoF en Spring
 # Post-contenido — Unidad 1: Fundamentos de Patrones de Diseño y Buenas Prácticas
 
 ## Descripción
-Repositorio del post-contenido de la Unidad 1 de Patrones de Diseño de Software — Sexto Semestre. Contiene dos partes: refactorización SOLID de un God Object (`parte-1-refactorizacion-solid/`) y análisis de patrones GoF en Spring Framework (`parte-2-analisis-gof-spring/`).
+Repositorio del post-contenido de la Unidad 1 de Patrones de Diseño de Software — Sexto Semestre. Contiene dos partes: refactorización SOLID de un God Object [`parte-1-refactorizacion-solid/`](./parte-1-refactorizacion-solid/) y análisis de patrones GoF en Spring Framework [`parte-2-analisis-gof-spring/](./parte-2-analisis-gof-spring/).
 
 ## Parte 1 — Refactorización SOLID
 Proyecto Maven que refactoriza `OrderProcessor` aplicando SRP, OCP y DIP. Ver [`parte-1-refactorizacion-solid/`](./parte-1-refactorizacion-solid/).
